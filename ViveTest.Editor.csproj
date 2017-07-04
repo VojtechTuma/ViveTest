@@ -134,6 +134,7 @@
     <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Materials\Outline_Diffuse.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
@@ -145,6 +146,12 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\Vive-Teleporter\LICENSE.txt" />
+    <None Include="Assets\Vive-Teleporter\README.txt" />
+    <None Include="Assets\Vive-Teleporter\Shader\FadeBlack.shader" />
+    <None Include="Assets\Vive-Teleporter\Shader\TransparentNoOverlap.shader" />
+    <None Include="Assets\Vive-Teleporter\Shader\ViveMovementBorder.shader" />
+    <None Include="Assets\Vive-Teleporter\Shader\ViveMovementGrid.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
